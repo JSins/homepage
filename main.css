@@ -342,6 +342,7 @@ input[type=submit]:hover, .blackbutton:hover
     #aufmacher
     {
         height: 120vw;
+        margin-bottom: 10vw;
     }
 
     #projekte
