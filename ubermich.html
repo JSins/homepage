@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="main.css">
     <link href="https://fonts.googleapis.com/css2?family=Heebo&family=Karla&family=Varta:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a759227025.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
 
