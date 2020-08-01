@@ -1,9 +1,9 @@
 *
 {
-    font-family: 'Source Sans Pro', sans-serif;
-    border-style: solid;
+    font-family: 'Heebo', sans-serif;
+    /* border-style: solid;
     border-color: #ccc;
-    border-width: 1px;
+    border-width: 1px; */
     margin: 0 auto;
     padding: 0;
 }
@@ -47,7 +47,7 @@ nav
 
 #headline
 {
-    padding: 1%;
+    padding: 3%;
     font-size: 40pt;
 }
 
@@ -61,7 +61,82 @@ nav
     background-image: url(img/aufmacher3.jpg);
 }
 
+#preproj
+{
+    padding: 5%;
+    padding-right: 50%;
+    line-height: 20pt;
+}
+
 #projekte
 {
     display: flex;
+    flex-wrap: wrap;
+    padding: 3%;
+}
+
+.projekt
+{
+    flex: 1 0 45%;
+    margin: 1.5%;
+    height: 700px;
+    transition: 1s;
+}
+
+.projekt:hover
+{
+    filter: brightness(80%); 
+    cursor: pointer;
+}
+
+.projektimg
+{
+    height: 90%;
+}
+
+.projekthead
+{
+    font-size: 20pt;
+    font-weight: bold;
+    padding-top: 1%;
+}
+
+#ad
+{
+    padding: 5%;
+    padding-right: 50%;
+    background-color: #555;
+    color: #ffffff;
+    line-height: 20pt;
+}
+
+#ad h2, #preproj h2
+{
+    font-size: 30pt;
+}
+
+p
+{
+    margin-top: 40px;
+    font-family: 'Varta', sans-serif;
+}
+
+footer
+{
+    padding: 5%;
+    color: #444;
+    padding-right: 40%;
+}
+
+#footerinfo
+{
+    margin-top: 20px;
+    display: flex;
+    
+}
+
+.impr
+{
+    flex: 1;
+    font-family: 'Varta', sans-serif;
 }
