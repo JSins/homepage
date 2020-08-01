@@ -320,8 +320,23 @@ input[type=submit]:hover, .blackbutton:hover
 
     header
     {
-        display: block;
-        padding: 0;
+        padding: 5vw;
+    }
+
+    #navbar
+    {
+        flex: 5;
+    }
+
+    #logosmall
+    {
+        flex: 1;
+        width: 30vw;
+    }
+
+    #title
+    {
+        display: none;
     }
 
     h2
@@ -377,4 +392,30 @@ input[type=submit]:hover, .blackbutton:hover
         display: block;
     }
 
+    #uber
+    {
+        margin-top: 10vw;
+        display: block;
+    }
+
+    .ubermich
+    {
+        margin-top: 10vw;
+    }
+
+    #mitarbeiten
+    {
+        padding-top: 30vw;
+        padding-bottom: 30vw;
+    }
+
+    #contact
+    {
+        display: block;
+    }
+
+    .shortin
+    {
+        width: 40vw;
+    }
 }
