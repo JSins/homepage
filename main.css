@@ -5,9 +5,9 @@
     padding: 0;
 
     /* --- Debugging --- */
-    /* border-style: solid;
+    border-style: solid;
     border-color: #ccc;
-    border-width: 1px; */
+    border-width: 1px;
     /* ----------------- */
 
 
@@ -18,7 +18,7 @@ a
     text-decoration: none;
     color: inherit;
     border-bottom: 1px solid #fff;
-    transition: 0.1s;
+    transition: 0.15s;
 }
 
 a:hover
@@ -149,10 +149,12 @@ nav
     line-height: 20pt;
 }
 
-#ad h2, #preproj h2
+h2
 {
     font-size: 30pt;
 }
+
+
 
 p
 {
@@ -197,4 +199,106 @@ footer
 {
     flex: 1;
     font-family: 'Varta', sans-serif;
+}
+
+/* ----------------- Homepage -------------------------- */
+
+#uber
+{
+    display: flex;
+    padding: 5%;
+    margin-top: 100px;
+}
+
+.ubermich
+{
+    flex: 1;
+    line-height: 20pt;
+}
+
+#mitarbeiten
+{
+    background-image: url(img/aufmacher.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10%;
+}
+
+#mitarbeiten h2
+{
+    margin-bottom: 20px;
+}
+
+
+/* ----------------- Über mich --------------------- */
+
+
+#contact
+{
+    display: flex;
+    padding: 5%;
+}
+
+.contactsec
+{
+    flex: 1.5;
+}
+
+#contactsecleft
+{
+    padding-right: 10%;
+    flex: 1;
+}
+
+#contactsecright
+{
+    font-family: 'Karla', sans-serif;
+}
+
+.shortin
+{
+    width: 46%;
+}
+
+.longin
+{
+    width: 95%;
+}
+
+input, textarea
+{
+    padding: 1.5%;
+    margin-bottom: 1%;
+    font-family: 'Karla', sans-serif;
+    font-size: 13pt;
+    background: rgb(253, 254, 255);
+    border-radius: 4px;
+    border-color: rgb(234, 235, 236);
+}
+
+textarea
+{
+    width: 95%;
+    height: 150px;
+    resize: none;
+    margin-bottom: 20px;
+}
+
+input[type=submit]
+{
+    border-color: #000000;
+    background: #000000;
+    color: #ffffff;
+    border-radius: 0;
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: 0.75s;
+}
+
+input[type=submit]:hover
+{
+    background: #ffffff;
+    color: #000000;
+    cursor: pointer;
 }

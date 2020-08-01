@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kahnwald Multimedia</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&family=Karla&family=Varta:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="placeholder"></div>
+    
+    <header>
+        <div id="logosmall"></div>
+        <div id="navbar">
+            <div id="title">
+                <a href="home.html">Kahnwald Multimedia</a>
+            </div>
+            
+            <nav>
+                <a class="link" href="home.html">Arbeit</a>
+                <a class="link" href="ubermich.html">Über mich</a>
+                <a class="link" href="">Mein Team</a>
+                <a class="link" href="">Presse</a>
+                <a class="link" href="contact.html">Kontakt</a>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+
+        <section id="contact">
+            <div id="contactsecleft" class="contactsec">
+                <h2>Kontaktieren Sie mich!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque earum tempore quidem eveniet laborum molestias, aliquam magni iure quae repellat consequatur voluptatem veritatis amet enim eum et quia quod nam?</p>
+                <p>______________________________________</p>
+                <p>Stadtfeldkamp 33<br>
+                    24114 Kiel<br>
+                    Deutschland<br><br>
+                    +49 152 0352 0752<br>
+                    jkahnwald@gmail.com
+                </p>
+            </div>
+            <div id="contactsecright" class="contactsec">
+                <form method="POST" action="thanks.html">
+                    Name *<br>
+                    <input class="shortin" type="text" name="Name" placeholder="Name...">
+                    <input class="shortin" type="text" name="Vorname" placeholder="Vorname..."><br><br>
+                    E-Mail *<br>
+                    <input class="longin" type="email" name="Email" placeholder="max@mustermann.de..."><br><br>
+                    Betreff *<br>
+                    <input class="longin" type="text" name="Betreff" placeholder="Ihr Anliegen..."><br><br>
+                    Nachricht *<br>
+                    <textarea name="Nachricht" placeholder="Ihre Nachricht..."></textarea>
+                    <input type="submit" name="absenden">
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <h1>Impressum</h1>
+        <div id="footerinfo">
+            <div class="impr">
+                Stadtfeldkamp 33<br>
+                24114 Kiel<br>
+                Deutschland
+            </div>
+            <div class="impr">
+                +49 152 0352 0752<br>
+                jkahnwald@gmail.com
+            </div>
+            <div class="impr">
+                @97jonas<br>
+                Jonas Kahnwald
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="javascript.js"></script>    
+</body>
+</html>
