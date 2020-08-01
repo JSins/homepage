@@ -81,7 +81,6 @@ nav
     flex: 1 1 auto;
     text-align: center;
     padding: 3px;
-    margin-left: 20px;
 }
 
 #headline
@@ -118,7 +117,7 @@ nav
 {
     flex: 1 0 45%;
     margin: 1.5%;
-    height: 700px;
+    height: 50vw;
     transition: 0.75s;
 }
 
@@ -310,4 +309,71 @@ input[type=submit]:hover, .blackbutton:hover
 {
     padding: 10%;
     text-align: center;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+
+    header
+    {
+        display: block;
+        padding: 0;
+    }
+
+    h2
+    {
+        line-height: 40px;
+    }
+
+    #headline
+    {
+        line-height: 50px;
+    }
+
+    #preproj
+    {
+        padding: 5%;
+    }
+
+    #aufmacher
+    {
+        height: 120vw;
+    }
+
+    #projekte
+    {
+        display: block;
+        padding: 0;
+    }
+
+    .projekt
+    {
+        height: 100vw;
+        margin-bottom: 15vw;
+    }
+
+    .projekthead
+    {
+        font-size: 16pt;
+    }
+
+    #ad
+    {
+        padding: 10vw;
+    }
+
+    footer
+    {
+        padding: 10vw;
+    }
+
+    #footerinfo
+    {
+        display: block;
+    }
+
 }

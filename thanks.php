@@ -40,7 +40,7 @@
 
         <?php
 
-            $empf = "nutzlosundso@gmail.com";
+            $empf = "sanoj1997@yahoo.de";
             $betreff = $_POST['Betreff'];
             $from = "From: ";
             $from .= $_POST['Vorname']." ".$_POST['Name'];
