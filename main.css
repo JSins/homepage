@@ -325,7 +325,7 @@ input[type=submit]:hover, .blackbutton:hover
 
     #navbar
     {
-        flex: 5;
+        flex: 7;
     }
 
     #logosmall
@@ -342,6 +342,11 @@ input[type=submit]:hover, .blackbutton:hover
     h2
     {
         line-height: 40px;
+    }
+
+    .link
+    {
+        font-size: 11pt;
     }
 
     #headline
