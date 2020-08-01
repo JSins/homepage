@@ -13,7 +13,7 @@
 
 }
 
-a
+#navbar a
 {
     text-decoration: none;
     color: inherit;
@@ -21,7 +21,7 @@ a
     transition: 0.15s;
 }
 
-a:hover
+#navbar a:hover
 {
     border-bottom: 1px solid #000;
     padding-bottom: 3px;
@@ -178,7 +178,6 @@ p
 {
     background-color: #000;
     color: #fff;
-    
 }
 
 footer
@@ -267,6 +266,8 @@ footer
 
 input, textarea
 {
+    border-style: none;
+    border-style: solid;
     padding: 1.5%;
     margin-bottom: 1%;
     font-family: 'Karla', sans-serif;
@@ -284,7 +285,7 @@ textarea
     margin-bottom: 20px;
 }
 
-input[type=submit]
+input[type=submit], .blackbutton
 {
     border-color: #000000;
     background: #000000;
@@ -296,9 +297,17 @@ input[type=submit]
     transition: 0.75s;
 }
 
-input[type=submit]:hover
+input[type=submit]:hover, .blackbutton:hover
 {
     background: #ffffff;
     color: #000000;
-    cursor: pointer;
+    cursor: pointer;   
+}
+
+
+
+#thanks
+{
+    padding: 10%;
+    text-align: center;
 }

@@ -31,33 +31,32 @@
     
     <main>
 
-        <section id="contact">
-            <div id="contactsecleft" class="contactsec">
-                <h2>Kontaktieren Sie mich!</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque earum tempore quidem eveniet laborum molestias, aliquam magni iure quae repellat consequatur voluptatem veritatis amet enim eum et quia quod nam?</p>
-                <p>______________________________________</p>
-                <p>Stadtfeldkamp 33<br>
-                    24114 Kiel<br>
-                    Deutschland<br><br>
-                    +49 152 0352 0752<br>
-                    jkahnwald@gmail.com
-                </p>
-            </div>
-            <div id="contactsecright" class="contactsec">
-                <form method="POST" action="thanks.php">
-                    Name *<br>
-                    <input class="shortin" type="text" name="Name" placeholder="Name...">
-                    <input class="shortin" type="text" name="Vorname" placeholder="Vorname..."><br><br>
-                    E-Mail *<br>
-                    <input class="longin" type="email" name="Email" placeholder="max@mustermann.de..."><br><br>
-                    Betreff *<br>
-                    <input class="longin" type="text" name="Betreff" placeholder="Ihr Anliegen..."><br><br>
-                    Nachricht *<br>
-                    <textarea name="Nachricht" placeholder="Ihre Nachricht..."></textarea>
-                    <input type="submit" name="absenden">
-                </form>
-            </div>
+
+        <section id="thanks">
+            <h2>Danke für Ihr Vertrauen!</h2>
+            <p>Ich werde mich in Kürze im Ihr Anliegen kümmern.</p>
+            <a href="home.html" class="blackbutton">Startseite</a>
         </section>
+
+        <?php
+
+            $empf = "nutzlosundso@gmail.com";
+            $betreff = $_POST['Betreff'];
+            $from = "From: ";
+            $from .= $_POST['Vorname']." ".$_POST['Name'];
+            $from .= " <";
+            $from .= $_POST['Email'];
+            $from .= ">\n";
+            $from .= "Reply-To: ";
+            $from .= $_POST['Email'];
+            $from .= "\n";
+            $from .= "Content-Type: text/html\n";
+            $text = $_POST['Nachricht'];
+
+            mail($empf, $betreff, $text, $from);
+
+        ?>
+
 
     </main>
 
