@@ -5,9 +5,9 @@
     padding: 0;
 
     /* --- Debugging --- */
-    border-style: solid;
+    /* border-style: solid;
     border-color: #ccc;
-    border-width: 1px;
+    border-width: 1px; */
     /* ----------------- */
 
 
@@ -273,20 +273,24 @@ footer
 
 #refhead
 {
-    text-align: center;
     padding: 5%;
 }
 
 #refnav
 {
     position: fixed;
-    padding: 3%;
+    padding: 2%;
     margin-top: 200px;
+    margin-left: 2%;
+    border-style: solid;
+    width: 8%;
+    border-radius: 2px;
+    border-color: #ddd;
 }
 
 .ref
 {
-
+    padding: 5%;
 }
 
 .refimg
@@ -295,9 +299,9 @@ footer
     height: 500px;
 }
 
-.refhead
+.refdesc
 {
-    
+    margin-top: unset;
 }
 
 
