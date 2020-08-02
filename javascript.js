@@ -1,7 +1,13 @@
-// $(window).scroll(function(){
-//     var sticky = $('header'),
-//         scroll = $(window).scrollTop();
-  
-//     if (scroll >= 100) sticky.addClass('fixed');
-//     else sticky.removeClass('fixed');
-//   });
+$(window).scroll(function(){
+    var y = $(this).scrollTop();
+    if (y > 600) {
+      $('#pageup').fadeIn();
+    } else {
+      $('#pageup').fadeOut();
+    }
+  });
+
+$('#pageup').click(function(){
+    $(window).scrollTop(0);
+})
+
