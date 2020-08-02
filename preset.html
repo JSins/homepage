@@ -12,6 +12,8 @@
 </head>
 <body>
 
+    <div id="pageup"><i class="fas fa-chevron-up"></i></div>
+
     <div id="placeholder"></div>
     
     <header>
