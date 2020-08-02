@@ -5,9 +5,9 @@
     padding: 0;
 
     /* --- Debugging --- */
-    /* border-style: solid;
+    border-style: solid;
     border-color: #ccc;
-    border-width: 1px; */
+    border-width: 1px;
     /* ----------------- */
 
 
@@ -265,6 +265,44 @@ footer
 
 /* ----------------- Über mich --------------------- */
 
+#referenzen
+{
+    padding: 5%;
+    padding-left: 15%;
+}
+
+#refhead
+{
+    text-align: center;
+    padding: 5%;
+}
+
+#refnav
+{
+    position: fixed;
+    padding: 3%;
+    margin-top: 200px;
+}
+
+.ref
+{
+
+}
+
+.refimg
+{
+    background-size: cover;
+    height: 500px;
+}
+
+.refhead
+{
+    
+}
+
+
+/* ----------------- Referenzen ---------------------- */
+
 
 #contact
 {
@@ -317,6 +355,11 @@ textarea
     height: 150px;
     resize: none;
     margin-bottom: 20px;
+}
+
+#dsgvo:hover
+{
+    cursor: pointer;
 }
 
 input[type=submit], .blackbutton
