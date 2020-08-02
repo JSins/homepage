@@ -120,7 +120,7 @@ nav
     background-size: cover;
     background-position: bottom;
     height: 800px;
-    background-image: url(img/aufmacher3.jpg);
+    background-image: url(img/aufmacher33.jpg);
 }
 
 #preproj
@@ -142,18 +142,27 @@ nav
     flex: 1 0 45%;
     margin: 1.5%;
     height: 50vw;
-    transition: 0.75s;
+    
 }
 
-.projekt:hover
+.projektimg:hover
 {
     filter: brightness(80%); 
     cursor: pointer;
+    transform: scale(1.1);
+}
+
+.projektimgcont
+{
+    overflow: hidden;
+    height: 90%;
 }
 
 .projektimg
 {
-    height: 90%;
+    height: 100%;
+    transition: 0.75s;
+    z-index: 20;
 }
 
 .projekthead
@@ -161,6 +170,8 @@ nav
     font-size: 20pt;
     font-weight: bold;
     padding-top: 1%;
+    background: #ffffff;
+    z-index: 50;
 }
 
 #ad

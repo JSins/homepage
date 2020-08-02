@@ -1,9 +1,9 @@
 $(window).scroll(function(){
     var y = $(this).scrollTop();
     if (y > 600) {
-      $('#pageup').stop().fadeIn();
+      $('#pageup').fadeIn();
     } else {
-      $('#pageup').stop().fadeOut();
+      $('#pageup').fadeOut();
     }
   });
 
