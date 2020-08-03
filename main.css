@@ -505,7 +505,7 @@ input[type=submit]:hover, .blackbutton:hover
 }
 
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 648px) {
 
     #pageup
     {
@@ -637,7 +637,7 @@ input[type=submit]:hover, .blackbutton:hover
     }
 }
 
-@media only screen and (max-width: 394px) {
+@media only screen and (max-width: 410px) {
 
 .link
 {
@@ -651,7 +651,7 @@ input[type=submit]:hover, .blackbutton:hover
 
 }
 
-@media only screen and (max-width: 344px) {
+@media only screen and (max-width: 364px) {
 
     #logosmall
     {
