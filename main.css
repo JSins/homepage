@@ -93,7 +93,7 @@ header
     font-size: 16pt;
 }
 
-nav
+#topnav
 {
     flex: 4;
     display: flex;
@@ -133,14 +133,14 @@ nav
 {
     display: flex;
     flex-wrap: wrap;
-    padding: 3%;
+    padding: 5%;
 }
 
 .projekt
 {
     flex: 1 0 45%;
-    margin: 1.5%;
-    height: 50vw;
+    margin: 2%;
+    height: 40vw;
     
 }
 
@@ -446,7 +446,6 @@ input[type=submit]:hover, .blackbutton:hover
 }
 
 
-
 @media only screen and (max-width: 620px) {
 
     #pageup
@@ -545,6 +544,16 @@ input[type=submit]:hover, .blackbutton:hover
     .ubermich
     {
         margin-top: 10vw;
+    }
+
+    #bereiche
+    {
+        display: block;
+    }
+
+    .bereich
+    {
+        margin-bottom: 10%;
     }
 
     #mitarbeiten
