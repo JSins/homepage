@@ -270,21 +270,21 @@ footer
 #referenzen
 {
     padding: 5%;
-    padding-left: 15%;
+    padding-right: 16%;
+    padding-left: 16%;
 }
 
 #refhead
 {
-    padding: 5%;
+    padding-left: 5%;
 }
 
 #refnav
 {
     position: fixed;
-    padding: 1.5%;
-    margin-top: 50px;
-    margin-left: 2%;
-    width: 11%;
+    margin-top: 5%;
+    padding-left: 4%;
+    width: 12%;
 }
 
 .ref
@@ -292,10 +292,23 @@ footer
     padding: 5%;
 }
 
+.ref h1
+{
+    font-size: 20pt;
+}
+
+.ref p
+{
+    margin: 0;
+}
+
 .refimg
 {
     background-size: cover;
-    height: 500px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 25vw;
+    background-position: center;
 }
 
 .refdesc
@@ -303,9 +316,16 @@ footer
     margin-top: unset;
 }
 
-h4
+#refnav h4
 {
     margin-top: 10px;
+    transition: 0.2s;
+}
+
+#refnav h4:hover
+{
+    color: #3dc969;
+    cursor: pointer;
 }
 
 .refnavpoint
@@ -314,6 +334,14 @@ h4
     color: #222;
     font-family: 'Karla', sans-serif;
     padding-left: 5px;
+    transition: 0.2s;
+}
+
+.refnavpoint:hover
+{
+    padding-left: 10px;
+    font-weight: bold;
+    color: #3dc969;
 }
 
 
