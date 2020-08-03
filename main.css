@@ -110,6 +110,7 @@ header
 {
     padding: 3%;
     font-size: 40pt;
+    line-height: 44pt;
 }
 
 #aufmacher
@@ -270,8 +271,13 @@ footer
 #referenzen
 {
     padding: 5%;
-    padding-right: 16%;
-    padding-left: 16%;
+    padding-right: 14%;
+    padding-left: 18%;
+    padding-top: 0;
+}
+
+#refheadline
+{
 }
 
 #referenzen h4
@@ -290,7 +296,6 @@ footer
 #refnav
 {
     position: fixed;
-    margin-top: 5%;
     padding-left: 4%;
     width: 12%;
     min-width: 200px;
@@ -304,6 +309,7 @@ footer
 .ref h1
 {
     font-size: 20pt;
+    line-height: 24pt;
 }
 
 .ref p
@@ -613,6 +619,11 @@ input[type=submit]:hover, .blackbutton:hover
     {
         padding-top: 30vw;
         padding-bottom: 30vw;
+    }
+
+    #refnav
+    {
+        position: unset;
     }
 
     #contact
