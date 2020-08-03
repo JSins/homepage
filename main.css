@@ -281,13 +281,10 @@ footer
 #refnav
 {
     position: fixed;
-    padding: 2%;
-    margin-top: 200px;
+    padding: 1.5%;
+    margin-top: 50px;
     margin-left: 2%;
-    border-style: solid;
-    width: 8%;
-    border-radius: 2px;
-    border-color: #ddd;
+    width: 11%;
 }
 
 .ref
@@ -304,6 +301,19 @@ footer
 .refdesc
 {
     margin-top: unset;
+}
+
+h4
+{
+    margin-top: 10px;
+}
+
+.refnavpoint
+{
+    text-decoration: none;
+    color: #222;
+    font-family: 'Karla', sans-serif;
+    padding-left: 5px;
 }
 
 
