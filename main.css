@@ -624,6 +624,17 @@ input[type=submit]:hover, .blackbutton:hover
     #refnav
     {
         position: unset;
+        margin-left: 15%;
+    }
+
+    #referenzen
+    {
+        padding: 0;
+    }
+
+    .refimg
+    {
+        height: 200px;
     }
 
     #contact
