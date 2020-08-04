@@ -1,1 +1,6 @@
-/home.html      /ubermich.html
+# for root
+/*              /home.html     200
+​
+# for the rest
+/uber/*        /ubermich.html     200
+/kontakt/*      /contact.html   200
