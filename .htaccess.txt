@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Meine tolle Website"
-AuthUserfile /img/.htpasswd
-require user jsins
