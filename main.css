@@ -493,6 +493,31 @@ input[type=submit]:hover, .blackbutton:hover
     text-align: center;
 }
 
+/* ---------------- Kontakt --------------------- */
+
+#datenschutz
+{
+    padding: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#datenschutz p
+{
+    margin-bottom: 20px;
+}
+
+#datenschutz h3
+{
+    margin-top: 50px;
+}
+
+li
+{
+    font-family: 'Varta', sans-serif;
+    margin-left: 20px;
+}
+
 
 @media only screen and (max-width: 980px) {
 
