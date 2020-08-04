@@ -227,13 +227,14 @@ footer
 {
     margin-top: 20px;
     display: flex;
-    
 }
 
 .impr
 {
     flex: 1;
     font-family: 'Varta', sans-serif;
+    line-height: 17pt;
+    color: #444444;
 }
 
 /* ----------------- Homepage -------------------------- */
