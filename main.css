@@ -89,7 +89,7 @@ header
 
 #title
 {
-    flex: 7;
+    flex: 6;
     font-size: 16pt;
 }
 
@@ -272,7 +272,7 @@ footer
 {
     padding: 5%;
     padding-right: 14%;
-    padding-left: 18%;
+    padding-left: 230px;
     padding-top: 0;
 }
 
@@ -525,6 +525,11 @@ li
 #title
 {
     flex: 3;
+}
+
+.bereich
+{
+    flex: 1 0 30%;
 }
 
 }
