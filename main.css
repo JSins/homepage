@@ -121,6 +121,18 @@ header
     padding: 5%;
     padding-right: 50%;
     line-height: 20pt;
+    padding-bottom: 0;
+}
+
+#preproj a
+{
+    color: #000000;
+    transition: 0.15s;
+}
+
+#preproj a:hover
+{
+    color: #3dc969;
 }
 
 #projekte
@@ -130,35 +142,47 @@ header
     padding: 5%;
 }
 
+#projekte a
+{
+    text-decoration: none;
+    color: #222222;
+}
+
 .projekt
 {
     flex: 1 0 45%;
     margin: 2%;
-    height: 40vw;
-    
+    transition: 0.2s;
 }
 
-.projektimg:hover
+.projekt:hover
 {
-    filter: brightness(80%); 
     cursor: pointer;
-    transform: scale(1.1);
-}
-
-.projektimgcont
-{
-    overflow: hidden;
-    height: 90%;
+    transform: scale(1.03);
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.2);
 }
 
 .projektimg
 {
-    height: 100%;
+    height: 400px;
     transition: 0.75s;
     z-index: 20;
 }
 
 .projekthead
+{
+    padding: 4%;
+    padding-top: 2%;
+    
+}
+
+.projekthead p
+{
+    margin: 0;
+    font-family: 'Varta', sans-serif;
+}
+
+.projekt h3
 {
     font-size: 20pt;
     font-weight: bold;
@@ -191,6 +215,7 @@ p
 {
     margin-bottom: 20px;
     font-family: 'Varta', sans-serif;
+    line-height: 20pt;
 }
 
 .button
@@ -278,10 +303,6 @@ footer
     padding-right: 14%;
     padding-left: 230px;
     padding-top: 0;
-}
-
-#refheadline
-{
 }
 
 #referenzen h4
@@ -569,12 +590,6 @@ li
         flex: 7;
     }
 
-    #logosmall
-    {
-        /* flex: 1;
-        width: 30vw; */
-    }
-
     #title
     {
         display: none;
@@ -615,13 +630,12 @@ li
 
     .projekt
     {
-        height: 100vw;
         margin-bottom: 15vw;
     }
 
     .projekthead
     {
-        font-size: 16pt;
+        padding: 2%;
     }
 
     #ad
