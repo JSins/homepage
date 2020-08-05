@@ -16,8 +16,10 @@
 #pageup
 {
     position: fixed;
-    top: 90%;
-    left: 93%;
+    top: auto;
+    left: auto;
+    bottom: 3%;
+    right: 3%;
     background-color: #3dc969;
     color: #ffffff;
     padding-top: 24px;
