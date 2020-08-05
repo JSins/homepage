@@ -106,11 +106,12 @@ header
     padding: 3px;
 }
 
-.headline
+.headline h1
 {
     padding: 3%;
     font-size: 40pt;
     line-height: 44pt;
+    font-weight: normal;
 }
 
 #aufmacher
@@ -252,6 +253,11 @@ footer
     line-height: 20pt;
 }
 
+.ubermich h1
+{
+    font-size: 30pt;
+}
+
 #mitarbeiten
 {
     background-image: url(img/aufmacher.jpg);
@@ -306,7 +312,7 @@ footer
     padding: 5%;
 }
 
-.ref h1
+.ref h2
 {
     font-size: 20pt;
     line-height: 24pt;
@@ -492,6 +498,16 @@ input[type=submit]:hover, .blackbutton:hover
 {
     padding: 10%;
     text-align: center;
+}
+
+#thanks h1
+{
+    font-size: 30pt;
+}
+
+#thanks p
+{
+    margin-bottom: 60px;
 }
 
 /* ---------------- Kontakt --------------------- */
