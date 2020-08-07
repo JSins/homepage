@@ -830,6 +830,16 @@ li
     {
         width: 40vw;
     }
+
+    #datenschutz
+    {
+        padding: 10vw;
+    }
+
+    #datenschutz h2
+    {
+        font-size: 20pt;
+    }
 }
 
 @media only screen and (max-width: 410px) {
