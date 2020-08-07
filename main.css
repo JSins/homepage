@@ -171,9 +171,8 @@ section
 
 .projektimg
 {
-    height: 400px;
-    transition: 0.75s;
-    z-index: 20;
+    height: 25vw;
+    max-height: 400px;
 }
 
 .projekthead
@@ -705,6 +704,11 @@ li
     .projekt
     {
         margin-bottom: 15vw;
+    }
+
+    .projektimg
+    {
+        height: 200px;
     }
 
     .projekthead
