@@ -142,12 +142,12 @@ section
     color: #3dc969;
 }
 
-#kompetenzensec
+.sechead
 {
     text-align: center;
 }
 
-#kompetenzensec h2
+.sechead h2
 {
     margin-bottom: 0;
 }
