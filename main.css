@@ -210,15 +210,14 @@ section
 .watchit
 {
     border-style: solid;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 10px;
+    margin-bottom: 0;
     margin-left: 0;
     padding: 5px;
     padding-left: 8px;
     padding-right: 8px;
     border-radius: 20px;
     transition: 0.2s;
-    float: left;
     width: max-content;
     border-width: 2px;
     letter-spacing: 1px;
