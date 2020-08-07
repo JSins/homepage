@@ -194,6 +194,33 @@ header
     z-index: 50;
 }
 
+.projekt h4
+{
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: 'Karla', sans-serif;
+    color: #888;
+    letter-spacing: 3px;
+}
+
+.watchit
+{
+    border-style: solid;
+    margin: 10px;
+    margin-left: 0;
+    padding: 5px;
+    border-radius: 20px;
+    width: 130px;
+    background: #ffa9a9;
+    color: #df2b2b;
+    transition: 0.2s;
+}
+
+.watchit:hover
+{
+    width: 140px;
+}
+
 #ad
 {
     padding: 5%;
