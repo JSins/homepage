@@ -5,9 +5,9 @@
     padding: 0;
 
     /* --- Debugging --- */
-    /* border-style: solid;
+    border-style: solid;
     border-color: #ccc;
-    border-width: 1px; */
+    border-width: 1px;
     /* ----------------- */
 
 }
@@ -416,7 +416,7 @@ footer
 {
     padding: 5%;
     padding-right: 14%;
-    padding-left: 230px;
+    padding-left: 250px;
     padding-top: 0;
     max-width: 1000px;
 }
@@ -434,10 +434,18 @@ footer
     padding-left: 5%;
 }
 
+#burger, #burgerout
+{
+    text-align: center;
+    padding: 2%;
+    display: none;
+}
+
 #refnav
 {
     position: fixed;
     padding: 1%;
+    padding-left: 2%;
 }
 
 .ref
@@ -820,10 +828,17 @@ li
         padding-bottom: 30vw;
     }
 
+    #burger, #burgerout
+    {
+        display: block;
+    }
+
     #refnav
     {
+        transition: 0.5;
         position: unset;
         margin-left: 15%;
+        display: none;
     }
 
     #referenzen
