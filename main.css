@@ -418,6 +418,7 @@ footer
     padding-right: 14%;
     padding-left: 230px;
     padding-top: 0;
+    max-width: 1000px;
 }
 
 #referenzen h4
@@ -436,25 +437,39 @@ footer
 #refnav
 {
     position: fixed;
-    padding-left: 4%;
-    width: 12%;
-    min-width: 200px;
+    padding: 1%;
 }
 
 .ref
 {
-    padding: 5%;
+    margin-bottom: 50px;
 }
 
 .ref h2
 {
     font-size: 20pt;
     line-height: 24pt;
+    margin-bottom: 20px;
+}
+
+.ref h3
+{
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: 'Karla', sans-serif;
+    color: #888;
+    letter-spacing: 3px;
+    font-size: 12pt;
 }
 
 .ref p
 {
     margin: 0;
+}
+
+.ref a
+{
+    text-decoration: none;
 }
 
 .refimg
@@ -814,6 +829,11 @@ li
     #referenzen
     {
         padding: 0;
+    }
+
+    .ref
+    {
+        padding: 4vw;
     }
 
     .refimg
