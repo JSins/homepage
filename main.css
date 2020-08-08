@@ -441,6 +441,12 @@ footer
     display: none;
 }
 
+#burger i, #burgerout i
+{
+    font-size: 15pt;
+    color: #3dc969;
+}
+
 #refnav
 {
     position: fixed;

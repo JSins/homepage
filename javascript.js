@@ -15,14 +15,14 @@ $('#pageup').click(function(){
 
 function burgerout(){
   $('#refnav').show('slow');
-  $('#burger').html('<i class="fas fa-chevron-circle-up"></i>');
+  $('#burger').html('<i class="far fa-caret-square-down"></i>');
   $('#burger').attr('onclick', 'burgerin()');
   $('#burger').attr('id', 'burgerout');
 }
 
 function burgerin(){
   $('#refnav').hide('slow');
-  $('#burgerout').html('<i class="fas fa-chevron-circle-down"></i>');
+  $('#burgerout').html('<i class="fas fa-caret-square-down"></i>');
   $('#burgerout').attr('onclick', 'burgerout()');
   $('#burgerout').attr('id', 'burger');
 }
