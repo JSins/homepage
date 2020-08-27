@@ -32,20 +32,38 @@ function burgerin(){
 
 $('.bereich').click(function(){
   $('#komfull').fadeIn(300);
-  console.log(this.id);
+  $('body').css({"overflow":"hidden"});
   if(this.id == "komps")
   {
     $('#komboxleft').css({"background-image":"url(img/photoshop.jpg)"});
+    $('#komboxrighttext').html("<h3>Bildbearbeitung</h3><p>Die Bildbearbeitung ist die Veränderung von Fotos, Negativen, Dias oder digitalen Bildern. Sie ist zu unterscheiden von der Bildverarbeitung, mit deren Hilfe die Inhalte von Bildern verarbeitet werden.</p>");
   }
   else if(this.id == "kompremiere")
   {
     $('#komboxleft').css({"background-image":"url(img/premiere.jpg)"});
+  }
+  else if(this.id == "komaudition")
+  {
+    $('#komboxleft').css({"background-image":"url(img/audition.jpg)"});
+  }
+  else if(this.id == "komweb")
+  {
+    $('#komboxleft').css({"background-image":"url(img/web.jpg)"});
+  }
+  else if(this.id == "komanwendung")
+  {
+    $('#komboxleft').css({"background-image":"url(img/csharp.jpg)"});
+  }
+  else if(this.id == "komunity")
+  {
+    $('#komboxleft').css({"background-image":"url(img/unity.jpg)"});
   }
 })
 
 
 $('#komclose').click(function(){
   $('#komfull').fadeOut(300);
+  $('body').css({"overflow":"visible"});
 })
 
 
