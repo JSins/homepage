@@ -537,6 +537,56 @@ footer
 /* ----------------- Referenzen ---------------------- */
 
 
+#komfull
+{
+    position: fixed;
+    z-index: 200;
+    padding: 5%;
+    height: 90%;
+    width: 90%;
+    backdrop-filter: blur(10px) brightness(95%);
+    display: none;
+}
+
+#kombox
+{
+    background: #ffffff;
+    width: 100%;
+    height: 90%;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+}
+
+#komboxleft
+{
+    flex: 1;
+    background-size: cover;
+}
+
+#komboxright
+{
+    flex: 1;
+    padding: 5%;
+}
+
+#komclose
+{
+    transition: 0.3s;
+    font-size: 20pt;
+    float: right;
+    margin-top: -6%;
+    margin-right: -6%;
+    color: rgb(110, 110, 110);
+}
+
+#komclose:hover
+{
+    color: red;
+    cursor: pointer;
+}
+
+
 #bereiche
 {
     padding: 5%;
@@ -600,7 +650,7 @@ footer
 
 .shortin
 {
-    width: 46%;
+    width: 45.5%;
 }
 
 .longin

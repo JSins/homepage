@@ -30,3 +30,22 @@ function burgerin(){
 
 
 
+$('.bereich').click(function(){
+  $('#komfull').fadeIn(300);
+  console.log(this.id);
+  if(this.id == "komps")
+  {
+    $('#komboxleft').css({"background-image":"url(img/photoshop.jpg)"});
+  }
+  else if(this.id == "kompremiere")
+  {
+    $('#komboxleft').css({"background-image":"url(img/premiere.jpg)"});
+  }
+})
+
+
+$('#komclose').click(function(){
+  $('#komfull').fadeOut(300);
+})
+
+
