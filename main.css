@@ -417,7 +417,7 @@ footer
     padding: 5%;
     padding-right: 14%;
     padding-left: 250px;
-    padding-top: 0;
+    padding-top: 1%;
     max-width: 1000px;
 }
 
@@ -442,7 +442,7 @@ footer
 
 #burger i, #burgerout i
 {
-    font-size: 15pt;
+    font-size: 25pt;
     color: #3dc969;
 }
 
@@ -759,6 +759,11 @@ li
     flex: 1 0 30%;
 }
 
+.shortin
+{
+    width: 44%;
+}
+
 }
 
 
@@ -869,6 +874,7 @@ li
     #kombox
     {
         display: block;
+        margin-top: 12vw;
     }
 
     #komboxleft
@@ -910,6 +916,7 @@ li
         position: unset;
         margin-left: 15%;
         display: none;
+        margin-bottom: 8vw;
     }
 
     #referenzen
@@ -922,7 +929,7 @@ li
         padding-left: 4vw;
     }
 
-    .ref
+    .ref, #referenzen h1
     {
         padding: 4vw;
     }
