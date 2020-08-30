@@ -536,12 +536,6 @@ footer
 
 /* ----------------- Referenzen ---------------------- */
 
-div#preload 
-{ 
-    display: none; 
-}
-
-
 #komfull
 {
     position: fixed;
@@ -549,7 +543,7 @@ div#preload
     padding: 5%;
     height: 110%;
     width: 90%;
-    backdrop-filter: blur(5px) brightness(95%);
+    backdrop-filter: blur(5px) brightness(90%);
     display: none;
 }
 
@@ -560,6 +554,7 @@ div#preload
     border-radius: 15px;
     overflow: hidden;
     display: flex;
+    height: 80vh;
 }
 
 #komboxleft
