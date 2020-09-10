@@ -1,3 +1,9 @@
+$(document).ready(function(){
+  $('main').fadeIn(200);
+});
+
+
+
 const scrollToTop = () => {
   const c = document.documentElement.scrollTop || document.body.scrollTop;
   if (c > 0) {
@@ -46,7 +52,7 @@ function burgerin(){
 
 
 $('.bereich').click(function(){
-  $('#komfull').fadeIn(300);
+  $('#komfull').fadeIn(200);
   $('body').css({"overflow":"hidden"});
   if(this.id == "komps")
   {
@@ -77,7 +83,7 @@ $('.bereich').click(function(){
 
 
 $('#komclose').click(function(){
-  $('#komfull').fadeOut(300);
+  $('#komfull').fadeOut(200);
   $('body').css({"overflow":"visible"});
 })
 

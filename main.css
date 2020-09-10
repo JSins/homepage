@@ -12,7 +12,6 @@
 
 }
 
-
 #pageup
 {
     position: fixed;
@@ -100,6 +99,11 @@ header
     flex: 1 1 auto;
     text-align: center;
     padding: 3px;
+}
+
+main
+{
+    display: none;
 }
 
 .headline h1
@@ -209,6 +213,7 @@ section
 {
     /* transform: scale(1.01); */
     box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .projektimg
@@ -402,6 +407,7 @@ footer
     background-repeat: no-repeat;
     background-size: cover;
     padding: 10%;
+    max-width: inherit;
 }
 
 #mitarbeiten h2
@@ -554,7 +560,8 @@ footer
     border-radius: 15px;
     overflow: hidden;
     display: flex;
-    height: 80vh;
+    height: 80vw;
+    max-height: 80vh;
 }
 
 #komboxleft
@@ -618,7 +625,6 @@ footer
 
 .bereichhead
 {
-    height: 100px;
     padding: 5%;
 }
 
