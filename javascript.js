@@ -1,5 +1,8 @@
-$('#aufmacher').ready(function(){
-  $('main').fadeIn(200);
+$(document).ready(function(){
+  setTimeout(function(){
+    $('main').fadeIn(200);
+    $('footer').fadeIn(200);
+  }, 200)
 });
 
 $(function() {

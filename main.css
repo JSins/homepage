@@ -357,6 +357,7 @@ p
 
 footer
 {
+    display: none;
     padding: 5%;
     color: #444;
     padding-right: 40%;
