@@ -1,8 +1,10 @@
-$(document).ready(function(){
+$('main').ready(function(){
   $('main').fadeIn(200);
 });
 
-
+$(function() {
+  $('.lazy').Lazy();
+});
 
 const scrollToTop = () => {
   const c = document.documentElement.scrollTop || document.body.scrollTop;
@@ -11,9 +13,6 @@ const scrollToTop = () => {
     window.scrollTo(0, c - c / 8);
   }
 };
-
-
-
 
 $(window).scroll(function(){
     var y = $(this).scrollTop();
@@ -31,8 +30,6 @@ $(window).scroll(function(){
 $('#pageup').click(function(){
   scrollToTop();
 })
-
-
 
 function burgerout(){
   $('#refnav').show('slow');
