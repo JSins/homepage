@@ -1,13 +1,10 @@
 $(document).ready(function(){
   setTimeout(function(){
-    $('main').fadeIn(200);
-    $('footer').fadeIn(200);
+    $('main').fadeTo(200, 1);
+    $('footer').fadeTo(200, 1);
   }, 200)
 });
 
-$(function() {
-  $('.lazy').Lazy();
-});
 
 const scrollToTop = () => {
   const c = document.documentElement.scrollTop || document.body.scrollTop;

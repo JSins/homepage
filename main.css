@@ -103,7 +103,7 @@ header
 
 main
 {
-    display: none;
+    opacity: 0.01;
 }
 
 .headline h1
@@ -357,7 +357,7 @@ p
 
 footer
 {
-    display: none;
+    opacity: 0.01;
     padding: 5%;
     color: #444;
     padding-right: 40%;
