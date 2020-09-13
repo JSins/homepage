@@ -1,4 +1,4 @@
-$('main').ready(function(){
+$('#aufmacher').ready(function(){
   $('main').fadeIn(200);
 });
 
