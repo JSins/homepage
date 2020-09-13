@@ -38,6 +38,18 @@
     cursor: pointer;
 }
 
+#mobilehead
+{
+    display: none;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    background: #ffffff;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    padding: 2px;
+}
+
 #navbar a
 {
     text-decoration: none;
@@ -776,6 +788,11 @@ li
 
 
 @media only screen and (max-width: 675px) {
+
+    #mobilehead
+    {
+        display: block;
+    }
 
     #pageup
     {
