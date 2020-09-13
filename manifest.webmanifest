@@ -7,9 +7,14 @@
     "theme_color": "#3dc969",
     "description": "Die Homepage von Kahnwald Multimedia.",
     "icons": [{
-      "src": "apple-touch-icon.png",
-      "sizes": "180x180",
-      "type": "image/png"
+        "src": "apple-touch-icon.png",
+        "sizes": "180x180",
+        "type": "image/png"
+    },
+    {
+        "src": "touch/icon512.png",
+        "sizes": "512x512",
+        "type": "image/png"
     }],
     "related_applications": [{
       "platform": "Web"
