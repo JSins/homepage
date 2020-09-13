@@ -44,10 +44,10 @@
     position: fixed;
     text-align: center;
     width: 100%;
-    background: #ffffff;
+    background: #f3f3f3;
     font-family: 'Karla', sans-serif;
     font-weight: bold;
-    padding: 2px;
+    padding: 1%;
 }
 
 #navbar a
