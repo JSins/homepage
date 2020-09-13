@@ -3,7 +3,8 @@
     "short_name": "kahnwaldmedia",
     "start_url": ".",
     "display": "standalone",
-    "background_color" : "#fff" ,
+    "background_color" : "#ffffff" ,
+    "theme_color": "#3dc969",
     "description": "Die Homepage von Kahnwald Multimedia.",
     "icons": [{
       "src": "apple-touch-icon.png",
