@@ -97,10 +97,10 @@
 {
     text-decoration: none;
     padding: 2%;
-    font-weight: normal;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     color: #000000;
+    font-size: 15pt;
 }
 
 #navbar a
