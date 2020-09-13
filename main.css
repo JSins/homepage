@@ -42,12 +42,41 @@
 {
     display: none;
     position: fixed;
-    text-align: center;
     width: 100%;
     background: #f3f3f3;
-    font-family: 'Karla', sans-serif;
     font-weight: bold;
-    padding: 1%;
+ 
+}
+
+#mobilehead a
+{
+    flex: 1;
+    text-align: right;
+    font-size: 20pt;
+    vertical-align: top;
+    transition: 0.2s;
+    margin: 0;
+    color: #000000;
+    padding: 8px;
+    padding-right: 3%;
+}
+
+#mobilehead a:hover
+{
+    color: #3dc969;
+}
+
+#mobilehead span
+{
+    flex: 5;
+    font-size: 13pt;
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    /* position: absolute;
+    bottom: 10px; */
+    padding: 8px;
+    padding-top: 13pt;
+    padding-left: 3%;
 }
 
 #navbar a
@@ -791,7 +820,7 @@ li
 
     #mobilehead
     {
-        display: block;
+        display: flex;
     }
 
     #pageup
