@@ -550,7 +550,7 @@ footer
     padding: 5%;
     height: 110%;
     width: 90%;
-    backdrop-filter: blur(5px) brightness(90%);
+    backdrop-filter: blur(3px) brightness(90%);
     display: none;
 }
 
@@ -563,6 +563,7 @@ footer
     display: flex;
     height: 80vw;
     max-height: 80vh;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #komboxleft
@@ -882,6 +883,7 @@ li
     {
         display: block;
         margin-top: 12vw;
+        height: 80vh;
     }
 
     #komboxleft
