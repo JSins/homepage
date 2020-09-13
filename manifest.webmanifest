@@ -6,7 +6,7 @@
     "background_color" : "#fff" ,
     "description": "Die Homepage von Kahnwald Multimedia.",
     "icons": [{
-      "src": "favicon.png",
+      "src": "apple-touch-icon.png",
       "sizes": "180x180",
       "type": "image/png"
     }],
