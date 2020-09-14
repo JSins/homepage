@@ -77,8 +77,6 @@
     font-size: 13pt;
     margin: 0;
     font-family: 'Karla', sans-serif;
-    /* position: absolute;
-    bottom: 10px; */
     padding: 8px;
     padding-top: 12pt;
     padding-left: 0;
@@ -98,12 +96,19 @@
 {
     text-decoration: none;
     padding: 2%;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: #000000;
     font-size: 15pt;
     flex: 1;
     text-align: center;
+}
+
+.mobilemenusubtext
+{
+    font-size: 8pt;
+    font-family: 'Karla', sans-serif;
+    font-weight: lighter;
 }
 
 a
