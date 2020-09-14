@@ -17,9 +17,9 @@ const scrollToTop = () => {
 $(window).scroll(function(){
     var y = $(this).scrollTop();
     if (y > 600) {
-      $('#pageup').fadeIn();
+      $('#pageup').css("transform", "scale(1)");
     } else {
-      $('#pageup').fadeOut();
+      $('#pageup').css("transform", "scale(0)");
     }
   });
 
