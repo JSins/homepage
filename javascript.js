@@ -17,7 +17,7 @@ const scrollToTop = () => {
 $(window).scroll(function(){
     var y = $(this).scrollTop();
     if (y > 600) {
-      $('#pageup').css("transform", "scale(1)");
+      $('#pageup').css("transform", "scale(0.9)");
     } else {
       $('#pageup').css("transform", "scale(0)");
     }
