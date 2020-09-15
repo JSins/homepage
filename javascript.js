@@ -1,7 +1,7 @@
 $(document).ready(function(){
   setTimeout(function(){
-    $('main').fadeTo(200, 1);
-    $('footer').fadeTo(200, 1);
+    $('main').fadeTo(100, 1);
+    $('footer').fadeTo(100, 1);
   }, 200)
 });
 
