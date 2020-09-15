@@ -85,9 +85,10 @@ $('#komclose').click(function(){
 })
 
 $('.mobilemenulink').click(function(){
-  $(this).css("color", "#3dc969")
-  $('main').fadeTo(200, 0.01);
-    $('footer').fadeTo(200, 0.01);
+  $('#current').css("color", "#000000");
+  $(this).css("color", "#3dc969");
+  $('main').fadeTo(100, 0.01);
+  $('footer').fadeTo(100, 0.01);
 })
 
 
