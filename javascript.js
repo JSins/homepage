@@ -2,6 +2,7 @@ $(document).ready(function(){
   setTimeout(function(){
     $('main').fadeTo(100, 1);
     $('footer').fadeTo(100, 1);
+    $('#pageup').fadeTo(100, 1);
   }, 200)
 });
 
@@ -89,6 +90,7 @@ $('.mobilemenulink').click(function(){
   $(this).css("color", "#3dc969");
   $('main').fadeTo(100, 0.01);
   $('footer').fadeTo(100, 0.01);
+  $('#pageup').fadeTo(100, 0.01);
 })
 
 
