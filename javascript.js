@@ -94,3 +94,22 @@ $('.mobilemenulink').click(function(){
 })
 
 
+let width;
+
+jQuery(function($) {
+  $(window).scroll(function fix_element() {
+    width = $(window).width();
+    console.log(width);
+    if(width > 675)
+    {
+      $('#refnav').css(
+        $(window).scrollTop() > 100
+          ? { 'position': 'fixed', 'top': '0px' }
+          : { 'position': 'absolute', 'top': 'auto' }
+      );
+      return fix_element;
+    }
+  }());
+});
+
+

@@ -542,7 +542,7 @@ footer
 
 #refnav
 {
-    position: fixed;
+    position: absolute;
     padding: 1%;
     padding-left: 2%;
 }
